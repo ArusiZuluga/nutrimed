@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 400px) {
+  .background-gradient::before {
+    background: radial-gradient(
+      20% 50% at 50% 50%,
+      rgba(247, 71, 138, 0.376) 0%,
+      rgba(44, 37, 42, 0.589) 100%
+    );
+    z-index: -10;
+    content: "";
+    position: absolute;
+    inset: 0px;
+    transform: scale(1);
+    pointer-events: none;
+  }
+}
+
+.abouttitle{
+  align-self: center;
+  padding: auto;
+  text-align: center;
+}
