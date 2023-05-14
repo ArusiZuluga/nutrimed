@@ -62,12 +62,13 @@ const Home: NextPage = () => {
 
               </div>
               <div className="sm:mt-0 mt-8">
-                <button className="bg-purple-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition">BOOST IMMUNE SYSTEM</button>
+                <button className="bg-purple-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition">IMPROVE IMMUNITY</button>
 
               </div>
               <div>
-                <button className="bg-purple-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition">WEIGHT LOSS PLANS</button>
-
+                <Link href={"/bmi"}>
+                <button className="bg-purple-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition">CHECK BMI</button>
+                </Link>
               </div>
               <div className="sm:mt-0 mt-8">
                 <button className="bg-purple-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition">NUTRIMED PRODUCTS</button>
