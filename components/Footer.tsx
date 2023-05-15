@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Menu from "./NavBar";
 
 export default function Footer() {
   return (
@@ -6,21 +7,21 @@ export default function Footer() {
       <div className="text-gray-500">
         All Rights Reserved{" "}
         <a
-          href="https://replicate.com/"
+          href="https://nutrimed.ng"
           target="_blank"
           className="font-bold hover:underline transition hover:text-gray-300 underline-offset-2"
         >
           Nutrimed{" "}
         </a>
         <a
-          href="https://upload.io"
+          href="https://nutrimed.ng"
           target="_blank"
           className="font-bold hover:underline hover:text-gray-300 transition underline-offset-2"
         >
           Foods{" "}
         </a>
         <a
-          href="https://loops.so"
+          href="https://nutrimed.ng"
           target="_blank"
           className="font-bold hover:underline hover:text-gray-300 transition underline-offset-2"
         >
@@ -28,6 +29,7 @@ export default function Footer() {
         </a>
       </div>
       <div className="flex space-x-4 pb-4 sm:pb-0">
+        <Menu />
       </div>
     </footer>
   );

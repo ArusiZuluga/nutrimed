@@ -7,6 +7,7 @@ import Header from "../components/Header";
 import SquigglyLines from "../components/SquigglyLines";
 import { Testimonials } from "../components/Testimonials";
 import NextJsCarousel from "../components/Carousel";
+import ProductSlide from "../components/ProductSlide";
 
 const Home: NextPage = () => {
   return (
@@ -71,7 +72,7 @@ const Home: NextPage = () => {
                 </Link>
               </div>
               <div className="sm:mt-0 mt-8">
-                <button className="bg-purple-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition">NUTRIMED PRODUCTS</button>
+                <button className="bg-purple-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition">SHOP</button>
 
               </div>
 
@@ -79,14 +80,11 @@ const Home: NextPage = () => {
                 <button className="bg-purple-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition">TALK TO A NUTRITIONIST</button>
 
               </div>
-              <div className="sm:mt-0 mt-8">
-                <button className="bg-purple-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition">IMPROVE GUT HEALTH</button>
-
-              </div>
             </div>
           </div>
         </div>
       </main>
+      <ProductSlide />
       <Footer />
     </div>
   );

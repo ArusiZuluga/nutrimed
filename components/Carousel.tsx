@@ -7,7 +7,7 @@ export default class NextJsCarousel extends Component {
 	render() {
 		return (
 			<div  className="flex justify-between items-center w-full flex-col sm:mt-10 mt-6">
-			<Carousel  data-interval="3000" data-pause="false" autoPlay preventMovementUntilSwipeScrollTolerance>
+			<Carousel  data-interval="5000" data-pause="false" autoPlay preventMovementUntilSwipeScrollTolerance>
 				<div>
                     <a href='/store'>
                         <img width={200} height={200} src="/img1.png" alt="Family Nutrition"/>
@@ -15,7 +15,7 @@ export default class NextJsCarousel extends Component {
                     <Link className="bg-blue-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition"
                     href="/store"
                     >
-                        GO TO STORE
+                        Buy Now
                     </Link>
                     
 				</div>
@@ -23,10 +23,10 @@ export default class NextJsCarousel extends Component {
 					<a href='/store'>
                         <img width={200} height={200} src="/img2.png" />
                     </a>
-                    <Link className="bg-brown-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition"
+                    <Link className="bg-red-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition"
                     href="/store"
                     >
-                        GO TO STORE
+                        Buy Now
                     </Link>
 
 				</div>
@@ -37,7 +37,7 @@ export default class NextJsCarousel extends Component {
                     <Link className="bg-pink-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition"
                     href="/store"
                     >
-                        GO TO STORE
+                        Buy Now
                     </Link>
 
 				</div>
@@ -46,9 +46,9 @@ export default class NextJsCarousel extends Component {
                         <img width={200} height={200} src="/img4.png"/>
                     </a>
                     <Link className="bg-purple-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition"
-                    href="/store"
+                    href="/course"
                     >
-                        GO TO STORE
+                        TAKE THE NUTRIMED FAMILY NUTRITION COURSE
                     </Link>
 
 				</div>
