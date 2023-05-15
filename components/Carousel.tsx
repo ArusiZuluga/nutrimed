@@ -43,7 +43,7 @@ export default class NextJsCarousel extends Component {
 				</div>
 				<div>
 					<a href='/dietingandnutrition'>
-                        <img width={200} height={200} src="/img4.PNG"/>
+                        <img width={200} height={200} src="/img4.png"/>
                     </a>
                     <Link className="bg-purple-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition"
                     href="/store"
