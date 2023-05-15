@@ -43,7 +43,7 @@ const Home: NextPage = () => {
           className="bg-blue-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition"
           href="/familynutrition"
         >
-          Download Nutrimed Food's Meal Calendar.   
+          Generate Meal Plan.   
 
 
         </Link>
@@ -59,7 +59,7 @@ const Home: NextPage = () => {
           <div className="flex flex-col space-y-10 mt-4 mb-16">
             <div className="flex sm:space-x-8 sm:flex-row flex-col">
               <div>
-                <button className="bg-purple-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition">BOOK A DIETING PLAN</button>
+                <button className="bg-purple-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition">DIETING PLANS</button>
 
               </div>
               <div className="sm:mt-0 mt-8">
