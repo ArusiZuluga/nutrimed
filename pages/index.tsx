@@ -41,7 +41,7 @@ const Home: NextPage = () => {
         </h2>
         <Link
           className="bg-blue-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition"
-          href="/familynutrition"
+          href="/mealplanner"
         >
           Generate Meal Plan.   
 
@@ -58,13 +58,10 @@ const Home: NextPage = () => {
         <div className="flex justify-between items-center w-full flex-col sm:mt-10 mt-6">
           <div className="flex flex-col space-y-10 mt-4 mb-16">
             <div className="flex sm:space-x-8 sm:flex-row flex-col">
-              <div>
-                <button className="bg-purple-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition">DIETING PLANS</button>
-
-              </div>
               <div className="sm:mt-0 mt-8">
+                <Link href={"/datesseed"}>
                 <button className="bg-purple-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition">IMPROVE IMMUNITY</button>
-
+                </Link>
               </div>
               <div>
                 <Link href={"/bmi"}>
@@ -72,13 +69,20 @@ const Home: NextPage = () => {
                 </Link>
               </div>
               <div className="sm:mt-0 mt-8">
+                <Link href={"https://nutrimedfoods.bumpa.shop/"}>
                 <button className="bg-purple-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition">SHOP</button>
-
+                </Link>
               </div>
 
               <div>
+              <Link href={"https://wa.link/ri4flz"}>
                 <button className="bg-purple-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition">TALK TO A NUTRITIONIST</button>
-
+              </Link>
+              </div>
+              <div>
+              <Link href={"/course"}>
+                <button className="bg-purple-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition">LEARN FAMILY NUTRITION</button>
+              </Link>
               </div>
             </div>
           </div>

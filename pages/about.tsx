@@ -53,7 +53,7 @@ export default function AboutUs(){
         Choose Nutrimed Foods for nutritious, delicious, and high-quality food products you can trust.
         </div>
         <div className="bg-purple-300 rounded-xl text-black items-center justify-center text-center font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition">
-            <a href="store">
+            <a href="https://nutrimedfoods.bumpa.shop/">
                 <button > Go To Store</button>
             </a>
         </div>
