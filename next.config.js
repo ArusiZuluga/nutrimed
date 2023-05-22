@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
-  basePath: '/'
+  basePath: '/',
   reactStrictMode: true,
   images: {
     domains: ["upcdn.io", "replicate.delivery", "lh3.googleusercontent.com", "placehold.co"],
