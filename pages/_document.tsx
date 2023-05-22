@@ -3,7 +3,7 @@ import Document, { Head, Html, Main, NextScript } from "next/document";
 class MyDocument extends Document {
   render() {
     let description = "Join the Healthy 1% by building the right food discipline.";
-    let ogimage = "https://www.nutrimed.ng/fam1.png";
+    let ogimage = "/fam1.png";
     let sitename = "Nutrimed.ng";
     let title = "A healthier life, through nutrition";
 
