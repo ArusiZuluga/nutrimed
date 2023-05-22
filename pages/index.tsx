@@ -41,7 +41,7 @@ const Home: NextPage = () => {
         </h2>
         <Link
           className="bg-blue-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition"
-          href="https://www.mealplanner.nutrimed.ng"
+          href="https://mealplanner.nutrimed.ng"
         >
           Generate Meal Plan.   
 
