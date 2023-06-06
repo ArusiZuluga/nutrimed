@@ -75,7 +75,7 @@ const Home: NextPage = () => {
               </div>
 
               <div>
-              <Link href={"https://wa.link/ri4flz"}>
+              <Link href={"https://wa.link/qni4qe"}>
                 <button className="bg-purple-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition">TALK TO A NUTRITIONIST</button>
               </Link>
               </div>
